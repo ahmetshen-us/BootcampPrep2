@@ -2,7 +2,7 @@ package a_module1.basicJava;
 
 public class Methods {
 	/*
-	 * Divide and Conquer
+	 * Divide and Conquer - Parcala bol ve feth et
 	 * 
 	 * Most useful computer programs are much longer than our five line
 	 * "Hello World" program. Many programs are HUGE – literally tens of millions of
@@ -22,18 +22,18 @@ public class Methods {
 	 * 
 	 */
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { // curly braces
 // What is declaring a method and calling a method?
-
 	}
 
-//	 You can break a task into distinct non-trivial subtasks in order to understand it better. For example:
+//	You can break a task into distinct non-trivial subtasks in order to understand it better. For example:
 //  Fly airplane
 //  1. Take off
 //  2. Fly
 //  3. Land
+
 //You could even break one or more subtasks down further:
-//
+
 //Fly airplane
 //1. Take-off
 //   1. Push back from gate
@@ -83,17 +83,17 @@ public class Methods {
 //	   climbToCruiseAltitude
 
 //	Writing a Method
-//
+
 //	The first line of a method is called the "method header" and it contains some specific keywords:
-//
+
 //	public static void myMethod() {
 //	Each of these keywords have specific functions, and we'll learn about some of the other keywords later in this course. For now, we’re going to keep it simple so all our methods will be public, static, and void. Here is the syntax for creating your own method including the method header:
-//
+
 //	public static void methodName () {
-//	   statement 1
-//	   statement 2
+//	   statement 1;
+//	   statement 2;
 //	   …
-//	   statement n
+//	   statement n;
 //	}
 
 //	This is called "defining" or "declaring" a method, and you should place your methods after the main method. This means they should be placed after main's closing curly brace, but before your class's closing curly brace, like so:
@@ -107,26 +107,26 @@ public class Methods {
 	 * with a semicolon. Again using our flying example, here’s how the method calls
 	 * would look:
 	 */
+
 //	public static void main(String[] args) {
-//		takeOff();
+//		takeOff(); // takeOff  method is called/execute/invoke
 //	}
-//
+
+//	takeOff Method is defined/declared below
 //	public static void takeOff() {
 //		pushBackFromGate();
 //		taxiToRunway();
 //		increaseSpeedUntilOffGround();
 //		climbToCruiseAltitude();
 //	}
-	
+
 //	When you call a method, the computer jumps to that method definition, runs all the code inside that method, then returns to the line where it was called. We will discuss the details of how the computer runs methods in the next section.
 //3-controlFlow.PNG
 
 //	Which of the following method headers uses the correct syntax?
 //			  public static void example() {
 
-	
 //	Where do you put static methods?
 //			Inside the class, outside the main method
-
 
 }
