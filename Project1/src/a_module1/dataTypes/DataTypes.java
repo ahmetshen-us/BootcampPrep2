@@ -47,10 +47,40 @@ public class DataTypes {
 	 * 
 	 */
 
+	public void method1() {
+		// System.out.println(x); // x's scope is limited to main method only
+	}
 	public static void main(String[] args) {
+
 // What is a variable?
 //		A variable is a named space in memory
 //		for specific type of data.
+
+		int x = 10; // Integer
+		System.out.println(x);
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Integer.MIN_VALUE);
+		System.out.println(Integer.SIZE);
+		System.out.println(Integer.BYTES);
+
+		// 0 1 -> bits
+		// 1111 0000 -> byte(8 bits)
+		// int is 32 bit size long, or 4 bytes
+		// 2^32 = 4294967296
+		// 4294967296/2 = 2147483648
+		// Max = (0 ....)2147483647
+		// Min = -2147483648(.....-1)
+
+		double y = 10.5;
+		char z = '$';
+		boolean t = true;// Command Shift F to reformat code
+		
+		if(t == true) {
+			System.out.println("t is true");
+			System.out.println(x);
+		}else {
+			System.out.println("t is false");
+		}
 
 //		What is scope?
 		/*
@@ -59,9 +89,9 @@ public class DataTypes {
 		 * only going to live within the closest set of curly braces. And then as soon
 		 * as the computer gets to that left curly brace it's going forget your
 		 * variable.
+		 * {scopes}
 		 */
-		
-		
+
 		/*
 		 * A lot of times you're going to get the Cannot find symbol exception this
 		 * means that whatever name you're using for your variable the computer doesn't
@@ -76,17 +106,39 @@ public class DataTypes {
 		 * one method and then try to use it in another method the computer is not going
 		 * to know what's going on.
 		 */
-		
+
 //		Select all of the following expressions that correctly associate a piece of data with their appropriate data type
 //		1.0 is a double correct
 //		456 is an int correct
 //		'd' is a char correct
-		
+
 //		Select all of the following that are valid int values
 //		1 
 //		-34 
 //		709281 
 //		-10101 
+		// 4294967296 -> Not an int
+		// Check this 
+		double yy = 4294967296.0;
+		double zz = 3;
+		System.out.println(yy);
+		System.out.println(zz);
+		
+		//int kk = 3.0;
+		int kk = (int) 3.5; // cast double to int 
+		System.out.println(kk);
+		
+		int yunus = 2147483647;
+		
+		System.out.println(yunus);
+		
+		yunus = yunus + 1;
+		System.out.println(yunus);
+
+		
+
+		
+		System.out.println();
 
 	}
 

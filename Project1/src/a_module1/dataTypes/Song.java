@@ -32,6 +32,7 @@ public class Song {
 	 * 
 	 * 
 	 */
+
 	public static final double PI = 3.14;
 	public static final int MAX_SPEED = 80;
 	public static final int DAYS_IN_WEEK = 7;
@@ -61,7 +62,25 @@ public class Song {
 	 * 
 	 * 
 	 */
+	
+	// x = 15;
+	// y= 26
+	// x = y+ 16;
+	
 	public static void main(String[] args) {
+		double pll = 3.14; // define a variable named pi and set it 3.14
+		System.out.println(pll);
+		
+		// double pll = 3.24; // can not redefine a variable in the same scope
+		pll = 3.24; // change variable value to 3.24;
+		System.out.println(pll);
+		
+		pll = 6.88;
+		pll = 3.99;
+		pll = 3.77;
+		System.out.println(pll);
+		
+		System.out.println(PI);
 		String line = "This is the chorus";
 		System.out.println(line);
 		verse();
@@ -69,6 +88,9 @@ public class Song {
 	}
 
 	public static void verse() {
+		// System.out.println(pi);
+		double pi = 3.15;
+		System.out.println(PI);
 		String line = "This is my verse";
 		System.out.println(line);
 	}

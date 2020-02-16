@@ -10,9 +10,14 @@ public class Concat {
 		String lastName = "Doe";
 		System.out.println(firstName + lastName);
 		System.out.println(firstName + " " + lastName);
+		System.out.println(firstName + "\t" + lastName);
+		System.out.println(firstName + "\n" + lastName);
 
 //		What is the result of the following expression?
 		System.out.println(1 + 0 + "0" + 5 * 10);
+		System.out.println(1 + 6 + "0" + 5 * 10);
+		System.out.println(1 + "k" + "0" + 5 * 10);
+		System.out.println(1 + 0 + "uz" + 5 * 10);
 				
 
 	}

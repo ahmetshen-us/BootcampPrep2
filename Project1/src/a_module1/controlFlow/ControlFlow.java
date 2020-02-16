@@ -10,8 +10,14 @@ public class ControlFlow {
         System.out.println("end main");
     }
 
-    public static void method1() {
+    // access modifier
+    // private - only this class can access
+    // public - everyone can access
+    
+    
+     static void method1() {
         System.out.println("enter method1");
+       // System.out.newLine(); we can not call private methods from other classes
         method2();
         System.out.println("end method1");
     }
