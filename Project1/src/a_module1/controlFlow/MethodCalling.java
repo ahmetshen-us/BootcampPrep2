@@ -18,6 +18,11 @@ public class MethodCalling {
 		System.out.println("Start of message2.");
 		message1();
 		System.out.println("End of message2.");
+		message3();
+	}
+	
+	public static void message3() {
+		System.out.println("message from message 3");
 	}
 
 }
