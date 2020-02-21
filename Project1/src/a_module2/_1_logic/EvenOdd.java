@@ -1,5 +1,7 @@
 package a_module2._1_logic;
 
+import java.util.Scanner;
+
 public class EvenOdd {
 
 	public static void main(String[] args) {
@@ -11,7 +13,16 @@ public class EvenOdd {
 //			Type a number: 14
 //			even
 
-		
+		Scanner input = new Scanner(System.in);
+		System.out.print("type a number: ");
+		int number = input.nextInt();
+		System.out.println("your number is " + number);
+
+		if (number % 2 == 0)
+			System.out.println("even");
+		if (number % 2 == 1)
+			System.out.println("odd");
+		System.out.println("hi");
 //		Then look at redundant statements
 //		https://practiceit.cs.washington.edu/problem/view/bjp4/chapter4/s10-javaIsAwesome
 	}
