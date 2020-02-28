@@ -1,6 +1,7 @@
 package a_module3._1_parameters;
 
 public class Parameter {
+	
 	/*
 	 * So, for example, if I create my program in a way that I can enter in what I
 	 * want the values of the things in green to be, then I can pretty easily reuse
@@ -9,6 +10,7 @@ public class Parameter {
 	 * that is declared in your method, but whose value you set at the call of that
 	 * method.
 	 */
+	
 	public static void main(String[] args) {
 
 		byte number = 8;
