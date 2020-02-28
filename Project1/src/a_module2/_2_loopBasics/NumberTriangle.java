@@ -13,7 +13,12 @@ public class NumberTriangle {
 //			666666
 //			7777777
 
-
+		for (int i = 1; i < 8; i++) {
+			for (int j = 0; j < i; j++) { // one line rakam repeat
+				System.out.print(i);
+			}
+			System.out.println();
+		}
 	}
 
 }
