@@ -1,11 +1,29 @@
 package a_module3._1_parameters;
 
 public class Methods {
+//Question: Does is matter if main method is at the top or on the bottom? 
+//or somewhere else?
+	public static void main(String[] args) {
+//	power2exp6();
+		// printGrade(78.5);
+
+//	System.out.println("Hello");
+//	System.out.println("Hello");
+//	System.out.println("Hello");
+//	System.out.println("Hello");
+//	System.out.println("Hello");
+
+		//nPrintln("Hello", 5);
+
+		nPrint("x", 10); //
+
+	}
 
 	public static void power2exp6() {
 		System.out.println("2 to the 6 (2^6) = 64");
 	}
-	
+
+	// score is a parameter
 	public static void printGrade(double score) {
 		if (score >= 90.0) {
 			System.out.println('A');
@@ -25,16 +43,8 @@ public class Methods {
 			System.out.println(message);
 	}
 
-
-//	Question: Does is matter if main method is at the top or on the bottom? 
-//	or somewhere else?
-	public static void main(String[] args) {
-		power2exp6();
-		printGrade(78.5);
-		nPrintln("Hello", 3);
-
-		
+	public static void nPrint(String message, int n) {
+		for (int i = 0; i < n; i++)
+			System.out.print(message);
 	}
-
-	
 }
