@@ -4,18 +4,18 @@ public class Methods {
 //Question: Does is matter if main method is at the top or on the bottom? 
 //or somewhere else?
 	public static void main(String[] args) {
-//	power2exp6();
-		// printGrade(78.5);
+		//power2exp6();
+				printGrade(78.5);
 
-//	System.out.println("Hello");
-//	System.out.println("Hello");
-//	System.out.println("Hello");
-//	System.out.println("Hello");
-//	System.out.println("Hello");
+//			System.out.println("Hello");
+//			System.out.println("Hello");
+//			System.out.println("Hello");
+//			System.out.println("Hello");
+//			System.out.println("Hello");
 
-		//nPrintln("Hello", 5);
+				//nPrintlnYY("Hello Yunus", 10);
 
-		nPrint("x", 10); //
+				// nPrint("*", 30); //
 
 	}
 
@@ -38,7 +38,7 @@ public class Methods {
 		}
 	}
 
-	public static void nPrintln(String message, int n) {
+	public static void nPrintlnYY(String message, int n) {
 		for (int i = 0; i < n; i++)
 			System.out.println(message);
 	}

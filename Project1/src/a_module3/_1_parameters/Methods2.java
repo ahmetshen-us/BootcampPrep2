@@ -24,17 +24,15 @@ public class Methods2 {
 	}
 
 	private static void printDigitsOneLine() {
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) { // 0 - 9
 			printDigits3Times(i); // 000
 		}
-		
 	}
 
-	private static void printDigits3Times(int i) {
-		for (int j = 10; j < 13; j++) {
-			System.out.print(i);
+	private static void printDigits3Times(int rakam) {
+		for (int j = 0; j < 3; j++) {
+			System.out.print(rakam);
 		}
-		
 	}
 
 }

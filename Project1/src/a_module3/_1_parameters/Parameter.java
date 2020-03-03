@@ -13,7 +13,7 @@ public class Parameter {
 	
 	public static void main(String[] args) {
 
-		byte number = 8;
+		byte number = 16;
 		System.out.print(number + " decimal = ");
 		// print out one digit after the other
 		System.out.print(number / 64);
@@ -36,13 +36,16 @@ public class Parameter {
 //				• If yes, determine the return type of the method
 //				• If no, the return type is void
 
-		displayInBinary((byte) 126);
+		// displayInBinary((byte) 20);
 		
 		power2(6);
+		power(2,6);
 		
-		power2(16); // 2 to the 16 = 65536
-		power2(0); // 2 to the 0 = 1
-		power2(7); // 2 to the 7 = 128
+		power(5,2);
+		
+		//power2(16); // 2 to the 16 = 65536
+		//power2(0); // 2 to the 0 = 1
+		//power2(7); // 2 to the 7 = 128
 
 	}
 
@@ -59,6 +62,7 @@ public class Parameter {
 		System.out.println(" binary.");
 	}
 	
+	// 2^6 = 2x2x2x2x2x2
 	public static void power2(int exp) {
 	    int result = 1;
 	    for (int i = 1; i <= exp; i++) {
@@ -67,6 +71,7 @@ public class Parameter {
 	    System.out.println("2 to the " + exp + " = " + result);
 	}
 	
+	//5^2 = 5x5
 //	Question why defining result in the following method not a problem?
 	public static void power(int base, int exp) {
 	    int result = 1;

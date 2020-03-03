@@ -6,16 +6,19 @@ public class _02_ParameterScope {
 		int x = 5;
 		
 //		Capturing the return value from method
+		
 		x = change(x);
+		
 		System.out.println(x);
 	}
 
-//	What did void mean? 
-//	Now we have int, what does that mean?
+//	What did void mean? // method will not return anything 
+//	Now we have int, what does that mean? // we have to return an int
 	private static int change(int x) {
 		x = x * 10;
 		return x;
 		
+//		System.out.println("hi"); // Unreachable code
 //		What is return here, what does is mean?
 		
 //		Warning, do not put any more statements after return statement
